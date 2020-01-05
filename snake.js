@@ -71,7 +71,23 @@ function direction(event){
         down.play();
     }
 }
+document.addEventListener('touchstart', function(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    ctx.fillText("tap",5*box,6*box);
+    }, false);
 
+document.addEventListener('touchmove', function(event) {
+        event.preventDefault();
+        event.stopPropagation();
+        /* Здесь ваш код обработки события*/
+        }, false);
+
+document.addEventListener('touchend', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            ctx.fillText("",5*box,6*box);
+            }, false);
 // cheack collision function
 function collision(head,array){
     for(let i = 0; i < array.length; i++){
