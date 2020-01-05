@@ -74,7 +74,7 @@ function direction(event){
 document.addEventListener('touchstart', function(event) {
     event.preventDefault();
     event.stopPropagation();
-    ctx.fillText("А НУ НЕ ЖМИ НА МЕНЯ!",5*box,6*box);
+    ctx.fillText("НЕ ЖМИ НА МЕНЯ!",3*box,6*box);
     }, false);
 
 document.addEventListener('touchmove', function(event) {
