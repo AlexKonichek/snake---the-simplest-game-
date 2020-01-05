@@ -1,0 +1,19 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "snake -is  the simplest canvas based HTML5 game  on pure JS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexKonichek/snake---the-simplest-game-.git"
+  },
+  "author": "alex konichek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexKonichek/snake---the-simplest-game-/issues"
+  },
+  "homepage": "https://github.com/AlexKonichek/snake---the-simplest-game-#readme"
+}
